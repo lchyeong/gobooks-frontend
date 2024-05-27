@@ -21,8 +21,14 @@
   "eslintConfig": {
     "extends": [
       "react-app",
+      "airbnb",
+      "plugin:prettier/recommended",
       "react-app/jest"
-    ]
+    ],
+    "rules": {
+      "react/react-in-jsx-scope": "off",
+      "import/no-unresolved": "off"
+    }
   },
   "browserslist": {
     "production": [
@@ -37,6 +43,7 @@
     ]
   },
   "devDependencies": {
+    "eslint-config-airbnb": "^19.0.4",
     "tailwindcss": "^3.4.3"
   }
 }
