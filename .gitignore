@@ -7,9 +7,17 @@
 
 # testing
 /coverage
+/jest/
+/*.test.js
+/*.test.jsx
+/*.test.ts
+/*.test.tsx
 
 # production
 /build
+/dist
+/.next
+/out
 
 # misc
 .DS_Store
@@ -17,6 +25,12 @@
 .env.development.local
 .env.test.local
 .env.production.local
+.env
+.npmrc
+.yarnrc
+.vscode/
+.idea/
+*.sublime-workspace
 
 npm-debug.log*
 yarn-debug.log*
@@ -24,3 +38,67 @@ yarn-error.log*
 
 # develop
 .idea/
+.vscode/
+*.code-workspace
+*.iml
+
+# Log files
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# TypeScript
+*.tsbuildinfo
+
+# Parcel-bundler
+.cache
+.parcel-cache
+
+# Storybook
+out/
+.storybook-out/
+
+# SvelteKit
+.svelte-kit
+
+# Next.js
+.next/
+out/
+
+# Nuxt.js
+.nuxt
+dist/
+
+# Gatsby files
+.cache/
+public/
+
+# Windows specific files
+Thumbs.db
+ehthumbs.db
+
+# macOS specific files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux specific files
+*~
+
+# Editor directories and files
+.idea/
+.vscode/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+*.swo
+*.swn
