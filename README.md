@@ -1,70 +1,45 @@
-# Getting Started with Create React App
-
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-## Available Scripts
-
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+# Gobooks
+> Gobooks는 천천히, 꾸준히 읽는 즐거움을 강조하는 인터넷 책 쇼핑몰입니다.<br><br> 거북이를 모티브로 하여 독자들에게 책을 구매하고 끝까지 읽어낼 수 있다는 희망을 전합니다.
+## Service Goals
+1. 통합 도서 구매 쇼핑몰
+## Challenge Goals
+1. Spring과 React를 사용해서 통합 도서 구매 쇼핑몰 CRUD 구현
+## Next Goals
+1. React Error Handling(Error Boundaries)
+2. 카카오 API를 활용한 Book 정보 batch 작업
+3. 검색 엔진 최적화
+4. Jenkins CI/CD 구현
+5. 프로젝트 빌드 파일 Docker로 관리하기
+6. E2E 테스트 추가
+## Explore the Project
+* [try Gobooks](https://www.gobookstore.shop/)
+* 여러분의 피드백을 기다리고 있습니다.👏👏
+# 기능소개
+# 📚 STACKS
+[![Java](https://img.shields.io/badge/Java-orange?style=for-the-badge&logo=java)](#)
+[![MySQL](https://img.shields.io/badge/MySQL-blue?style=for-the-badge&logo=mysql)](#)
+[![Spring Boot](https://img.shields.io/badge/Spring_Boot-green?style=for-the-badge&logo=spring)](#)
+[![React](https://img.shields.io/badge/React-blue?style=for-the-badge&logo=react)](#)
+[![Material UI](https://img.shields.io/badge/MUI-teal?style=for-the-badge&logo=material-ui)](#)
+[![Tailwind CSS](https://img.shields.io/badge/tailwindcss-cyan?style=for-the-badge&logo=tailwind-css)](#)
+[![Zustand](https://img.shields.io/badge/Zustand-yellow?style=for-the-badge)](#)
+## Project Duration & Team
+* Duration: 2024.05.27 - 2024.06.21
+* Team: 6 Backend Developers
+## Backend Technology
+* Java
+* Spring Boot
+* Spring JPA
+* QueryDsl
+* Junit5
+* Spring Mail
+* Spring Security
+## Infrastructure
+* Google Cloud Platform(GCP)
+* PORTONE API
+* Kakao API
+## Frontend Technology
+* React
+* Zustand
+* MUI
+* tailwindcss
